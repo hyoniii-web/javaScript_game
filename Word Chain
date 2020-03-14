@@ -1,0 +1,27 @@
+//끝말잇기(Word chain) for 반복문 응용
+
+for(var word='사과';true;){
+var answer=prompt(word);
+if(word[word.length-1]===answer[0]){
+   //맞을 때 answer값을 word변수에 저장
+   word=answer;
+   else{
+   //틀릴 때 alert경고창 띄움
+   alert('땡')
+   }
+ }
+ 
+ 
+//끝말잇기(Word chain) while 반복문 응용
+var word='사과';
+while(true){
+var answer=prompt(word);
+if(word[word.length-1]===answer[0]){
+   //맞을 때 answer값을 word변수에 저장
+   word=answer;
+   else{
+  //틀릴 때 alert경고창 띄움
+   alert('땡')
+   }
+ }
+ 
